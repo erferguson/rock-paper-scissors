@@ -94,6 +94,6 @@ main();
 const reset = function (){
     userScore = 0;
     computerScore = 0;
-    document.getElementById('user-score').innerHTML=userScore_span
-    document.getElementById('computer-score').innerHTML=computerScore_span
+    document.getElementById('user-score').innerHTML=userScore
+    document.getElementById('computer-score').innerHTML=computerScore
 }
