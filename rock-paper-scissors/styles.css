@@ -14,6 +14,8 @@ header {
     background: #fff;
     padding: 20px;
 }
+
+
 header > h1 {
     color: #25272E;
     text-align: center;
@@ -86,4 +88,33 @@ header > h1 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+button#reset {
+    /* font-size: 12px;
+    font-size: 1.2rem;
+    color: #777777;
+    background-color: gainsboro;
+    border-radius: 10px; */
+    margin: 20px auto;
+    border: 3px solid #25272E;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    color: whitesmoke;
+    font-size: 46px;
+    padding: 15px 20px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
 }
